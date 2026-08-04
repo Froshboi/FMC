@@ -1,0 +1,350 @@
+{
+  "COUNTRIES": [
+    { "code": "NG", "name": "Nigeria", "flag": "🇳🇬" },
+    { "code": "GH", "name": "Ghana", "flag": "🇬🇭" },
+    { "code": "ZA", "name": "South Africa", "flag": "🇿🇦" },
+    { "code": "KE", "name": "Kenya", "flag": "🇰🇪" },
+    { "code": "UG", "name": "Uganda", "flag": "🇺🇬" },
+    { "code": "TZ", "name": "Tanzania", "flag": "🇹🇿" },
+    { "code": "GLOBAL", "name": "Global", "flag": "🌍" }
+  ],
+  "HOME_CONTENT": {
+    "chartTitle": "Frosh Top 100",
+    "chartSubtitle": "Week 27, 2026 · Updated Sunday",
+    "showChartNumbers": true,
+    "newsTitle": "Live News TV",
+    "newsSubtitle": "Fresh stories, drops, and chart moments from the Frosh newsroom.",
+    "livePulseTitle": "Live Music Pulse",
+    "livePulseSubtitle": "Scrolling updates from the culture.",
+    "livePulseItems": [
+      { "tag": "Chart Shock", "title": "Mosidon's 'SACi Riddim' claims the #1 crown", "detail": "Overtaking global giants on the official charts this week." },
+      { "tag": "Hot Drop", "title": "Mosidon's 'Burning Flames II' enters the Top 3", "detail": "Streaming numbers continue to explode across all platforms." },
+      { "tag": "Global Pulse", "title": "Drake's 'Janice STFU' holds firm in global top tiers", "detail": "Streaming numbers continue to hold steady." }
+    ]
+  },
+  "NEWS": [
+    { "id": "n1", "title": "Historical Milestone: Mosidon Hits #1 on Frosh Top 100, Defeating Heavyweights", "excerpt": "The Port Harcourt hip-hop star pulls an insane streaming week to push 'SACi Riddim' to the absolute peak...", "date": "July 6, 2026", "category": "Chart News" },
+    { "id": "n2", "title": "Mosidon Domination: Multiple Tracks from 'TRAP IN PHC' Storm the Top 10", "excerpt": "The collaborative anthems continue to shatter party floors and streaming charts nationwide.", "date": "July 4, 2026", "category": "Features" },
+    { "id": "n3", "title": "Drake Storms Global Charts With Brand New Records 'Janice STFU' and 'Shabang'", "excerpt": "The OVO hitmaker captures the internet's attention yet again with a dual chart onslaught.", "date": "July 1, 2026", "category": "International" }
+  ],
+  "AWARDS_2026": [
+    { "category": "Song of the Year", "nominees": ["SACi Riddim — Mosidon", "Jogodo — Wizkid & Asake", "Burning Flames II — Mosidon", "I Know Who I Be — Davido"] },
+    { "category": "Album of the Year", "nominees": ["TRAP IN PHC — Mosidon", "Lungu Boy — Asake", "Heis — Rema", "No Sign of Weakness — Burna Boy"] },
+    { "category": "Artist of the Year", "nominees": ["Mosidon", "Wizkid", "Asake", "Drake", "Davido"] }
+  ],
+  "CHART_METRICS": [
+    { "name": "Streaming", "value": 60, "color": "var(--color-primary)" },
+    { "name": "Airplay", "value": 20, "color": "oklch(0.78 0.16 75)" },
+    { "name": "Sales", "value": 10, "color": "oklch(0.72 0.17 155)" },
+    { "name": "TikTok", "value": 5, "color": "oklch(0.65 0.18 265)" },
+    { "name": "YouTube", "value": 5, "color": "oklch(0.7 0.18 320)" }
+  ],
+  "ARTISTS": [
+    { 
+      "id": "mosidon", 
+      "name": "Mosidon", 
+      "country": "NG", 
+      "genres": ["Afro-Trap", "Hip-Hop"], 
+      "label": "Addicted Music / Mosidon Records", 
+      "verified": true, 
+      "monthlyListeners": 24500000, 
+      "followers": 6800000, 
+      "bio": "The undeniable pulse of Port Harcourt city. Fusing hard-hitting trap sub-bass with raw reality storytelling.", 
+      "image": "/assets/trap-in-phc.jpg", 
+      "cover": "/assets/trap-in-phc.jpg",
+      "about": "Mosidon (Moshood Oladimeji) is a Port Harcourt-based artist who has redefined Afro-Trap music in Nigeria. Known for his introspective lyricism and innovative production, he has become a cultural ambassador for the Rivers State music scene. His album 'TRAP IN PHC' became an instant classic, breaking streaming records across the continent.",
+      "tags": ["Local Hero - Rivers State", "National Hero - Nigeria", "Chart Breaker", "Trendsetter"],
+      "achievements": ["#1 on Frosh Top 100", "Platinum Album", "15+ Chart Entries", "23M+ Monthly Listeners"],
+      "newsCoverage": [
+        { "title": "Historical Milestone: Mosidon Hits #1 on Frosh Top 100, Defeating Heavyweights", "date": "2026-07-06", "excerpt": "The Port Harcourt hip-hop star pulls an insane streaming week to push 'SACi Riddim' to the absolute peak." },
+        { "title": "Mosidon Domination: Multiple Tracks from 'TRAP IN PHC' Storm the Top 10", "date": "2026-07-04", "excerpt": "The collaborative anthems continue to shatter party floors and streaming charts nationwide." }
+      ],
+      "socials": { "twitter": "https://x.com/mosidon", "instagram": "https://instagram.com/mosidon", "spotify": "https://spotify.com" },
+      "artistPick": { "type": "Album", "title": "TRAP IN PHC Out Now", "id": "album-mosidon", "artwork": "/assets/trap-in-phc.jpg" }
+    },
+    { 
+      "id": "drake", 
+      "name": "Drake", 
+      "country": "GLOBAL", 
+      "genres": ["Hip-Hop", "Rap"], 
+      "label": "OVO / Republic", 
+      "verified": true, 
+      "monthlyListeners": 82400000, 
+      "followers": 41200000, 
+      "bio": "The 6 God. Continually shaping the global sonic landscape across eras.", 
+      "image": "/assets/hero-artist.jpg", 
+      "cover": "/assets/hero-artist.jpg",
+      "about": "Aubrey Graham, known professionally as Drake, is a Canadian rapper, singer, and songwriter who has dominated global music charts for over a decade. With a unique blend of singing and rapping, Drake has broken numerous streaming records and influenced the sound of modern hip-hop worldwide. His consistent presence in top charts cements his status as one of the most commercially successful artists of all time.",
+      "tags": ["Global Icon", "Chart Legend", "Streaming King", "Cultural Influencer"],
+      "achievements": ["82M+ Monthly Listeners", "Billion+ Streams", "Multiple Grammy Awards", "Consistently in Top Charts"],
+      "newsCoverage": [
+        { "title": "Drake Storms Global Charts With Brand New Records 'Janice STFU' and 'Shabang'", "date": "2026-07-01", "excerpt": "The OVO hitmaker captures the internet's attention yet again with a dual chart onslaught." }
+      ],
+      "socials": { "twitter": "https://x.com/champagnepapi", "instagram": "https://instagram.com/champagnepapi" },
+      "artistPick": { "type": "Single", "title": "Trending Globally", "id": "real-song-2", "artwork": "/assets/janice-stfu.jpg" }
+    },
+    { 
+      "id": "wizkid", 
+      "name": "Wizkid", 
+      "country": "NG", 
+      "genres": ["Afrobesats", "Afropop"], 
+      "label": "Starboy / RCA", 
+      "verified": true, 
+      "monthlyListeners": 29100000, 
+      "followers": 14200000, 
+      "bio": "Global icon and Starboy captain bringing effortless style and timeless melodies to the world stage.", 
+      "image": "/assets/jogodo-wizkid.jpg", 
+      "cover": "/assets/jogodo-wizkid.jpg",
+      "about": "Wizkid (Ayo Balogun) is a Nigerian singer and songwriter who pioneered the global expansion of Afrobeats music. From his early days with EME Records to his current status as a global phenomenon, Wizkid has maintained artistic integrity while breaking barriers. His collaborations with international artists have made him a bridge between African and Western music industries.",
+      "tags": ["National Hero - Nigeria", "Global Pioneer", "Afrobeats Ambassador", "Chart Veteran"],
+      "achievements": ["29M+ Monthly Listeners", "14M+ Followers", "Multiple Awards", "Global Collaborations"],
+      "newsCoverage": [
+        { "title": "Historical Milestone: Mosidon Hits #1 on Frosh Top 100, Defeating Heavyweights", "date": "2026-07-06", "excerpt": "Wizkid's 'Jogodo' holds strong at #2 with continued support from listeners worldwide." },
+        { "title": "Wizkid & Asake Collab 'Jogodo' Continues Dominating Charts", "date": "2026-07-03", "excerpt": "The infectious collaboration maintains momentum on global platforms." }
+      ],
+      "socials": { "twitter": "https://x.com/wizkidayo", "instagram": "https://instagram.com/wizkidayo" },
+      "artistPick": { "type": "Single", "title": "Hot Collaboration", "id": "real-song-1", "artwork": "/assets/jogodo-artwork.jpg" }
+    },
+    { 
+      "id": "asake", 
+      "name": "Asake", 
+      "country": "NG", 
+      "genres": ["Street-Pop", "Amapiano"], 
+      "label": "YBNL / Empire", 
+      "verified": true, 
+      "monthlyListeners": 21300000, 
+      "followers": 7400000, 
+      "bio": "Mr. Money himself—the unstoppable chart-topping energy machine of the modern culture.", 
+      "image": "/assets/hero-artist.jpg", 
+      "cover": "/assets/hero-artist.jpg",
+      "about": "Asake (Ahmed Adekunle) is a Nigerian street-pop and amapiano artist who has captivated audiences with his unique vocal delivery and infectious production choices. Rising from the YBNL Nation label, he has become synonymous with contemporary Nigerian pop music, bringing amapiano and street-pop sounds to mainstream prominence with chart-topping hits and viral moments.",
+      "tags": ["Local Hero - Lagos", "National Hero - Nigeria", "Street-Pop Pioneer", "Viral Sensation"],
+      "achievements": ["21M+ Monthly Listeners", "Multiple Chart Entries", "Cultural Influencer", "YBNL Star"],
+      "newsCoverage": [
+        { "title": "Asake Continues Dominating Charts With Multiple Top 10 Entries", "date": "2026-07-05", "excerpt": "The street-pop sensation maintains multiple positions in the Frosh Top 100." },
+        { "title": "Asake & Wizkid Collaborate on 'Jogodo', Chart Positions at #2", "date": "2026-07-01", "excerpt": "Street-pop meets Afrobeats in a massive collaboration that's taking over globally." }
+      ],
+      "socials": { "twitter": "https://x.com/asakemusik", "instagram": "https://instagram.com/asakemusik" },
+      "artistPick": { "type": "Video", "title": "Watch Chanel Video", "id": "real-song-3", "artwork": "/assets/chanel-artwork.jpg" }
+    },
+    { 
+      "id": "davido", 
+      "name": "Davido", 
+      "country": "NG", 
+      "genres": ["Afrobesats"], 
+      "label": "DMW / Sony", 
+      "verified": true, 
+      "monthlyListeners": 27800000, 
+      "followers": 12400000, 
+      "bio": "Leader of the 30BG movement and a pioneer of the worldwide Afrobeats revolution.", 
+      "image": "/assets/hero-artist.jpg", 
+      "cover": "/assets/hero-artist.jpg",
+      "about": "Davido (David Adeleke Adedeji) is a Nigerian singer, songwriter, and record producer who has been instrumental in the global rise of Afrobeats. As the founder of 30BG, he has mentored emerging artists while maintaining his position at the forefront of African music. His infectious energy and chart dominance have made him a household name across continents.",
+      "tags": ["National Hero - Nigeria", "30BG Founder", "Afrobeats Pioneer", "Cultural Ambassador"],
+      "achievements": ["27M+ Monthly Listeners", "12M+ Followers", "Global Chart Success", "Industry Leader"],
+      "newsCoverage": [
+        { "title": "Davido's 'I Know Who I Be' Maintains Strong Chart Position", "date": "2026-07-02", "excerpt": "The Afrobeats veteran keeps his presence felt in the top 10." },
+        { "title": "Davido & 30BG: Building an Empire in African Music", "date": "2026-06-28", "excerpt": "Exploring how Davido has shaped the landscape of contemporary African music." }
+      ],
+      "socials": { "twitter": "https://x.com/davido", "instagram": "https://instagram.com/davido" },
+      "artistPick": { "type": "Tour", "title": "Timeless Tour 2026", "id": "real-song-4", "artwork": "/assets/ikwib-artwork.jpg" }
+    }
+  ],
+  "SONGS": [
+    {
+      "id": "song-mosidon-top",
+      "rank": 1,
+      "prevRank": 2,
+      "peak": 1,
+      "weeks": 18,
+      "title": "SACi Riddim",
+      "artistId": "mosidon",
+      "artistName": "Mosidon feat. TION & Who iz Responsible",
+      "label": "Addicted Music",
+      "genre": "Afro-Trap",
+      "release": "2026-03-02",
+      "isrc": "NGA1A26485199",
+      "score": 105.45,
+      "streams": 24850000,
+      "artwork": "/assets/trap-in-phc.jpg",
+      "image": "/assets/trap-in-phc.jpg",
+      "producers": ["Sarz"],
+      "writers": ["Mosidon"],
+      "breakdown": [
+        { "platform": "Streaming", "value": 72, "color": "var(--color-primary)" },
+        { "platform": "Airplay", "value": 15, "color": "oklch(0.78 0.16 75)" },
+        { "platform": "Sales", "value": 5, "color": "oklch(0.72 0.17 155)" },
+        { "platform": "TikTok", "value": 5, "color": "oklch(0.65 0.18 265)" },
+        { "platform": "YouTube", "value": 3, "color": "oklch(0.7 0.18 320)" }
+      ],
+      "history": [
+        { "week": "W24", "rank": 3, "score": 96.0 },
+        { "week": "W25", "rank": 2, "score": 99.1 },
+        { "week": "W26", "rank": 2, "score": 101.4 },
+        { "week": "W27", "rank": 1, "score": 105.45 }
+      ],
+      "daily": [
+        { "day": "Mon", "streams": 3500000 },
+        { "day": "Tue", "streams": 3610000 },
+        { "day": "Wed", "streams": 3530000 },
+        { "day": "Thu", "streams": 3560000 },
+        { "day": "Fri", "streams": 3740000 },
+        { "day": "Sat", "streams": 3450000 },
+        { "day": "Sun", "streams": 3460000 }
+      ]
+    },
+    {
+      "id": "real-song-1",
+      "rank": 2,
+      "prevRank": 1,
+      "peak": 1,
+      "weeks": 12,
+      "title": "Jogodo",
+      "artistId": "wizkid",
+      "artistName": "Wizkid & Asake",
+      "label": "Starboy / YBNL",
+      "genre": "Afrobeats",
+      "release": "2026-01-22",
+      "isrc": "NGA1A2688410",
+      "score": 102.31,
+      "streams": 21400000,
+      "artwork": "/assets/jogodo-artwork.jpg",
+      "image": "/assets/wizkid-hero.jpg",
+      "producers": ["P.Priime"],
+      "writers": ["Wizkid", "Asake"],
+      "breakdown": [
+        { "platform": "Streaming", "value": 60, "color": "var(--color-primary)" },
+        { "platform": "Airplay", "value": 25, "color": "oklch(0.78 0.16 75)" },
+        { "platform": "Sales", "value": 15, "color": "oklch(0.72 0.17 155)" }
+      ],
+      "history": [{ "week": "W26", "rank": 1, "score": 104.2 }, { "week": "W27", "rank": 2, "score": 102.31 }],
+      "daily": [{ "day": "Mon", "streams": 3100000 }, { "day": "Tue", "streams": 3050000 }, { "day": "Wed", "streams": 2980000 }, { "day": "Thu", "streams": 3010000 }, { "day": "Fri", "streams": 3200000 }, { "day": "Sat", "streams": 3030000 }, { "day": "Sun", "streams": 3030000 }]
+    },
+    {
+      "id": "song-mosidon-2",
+      "rank": 3,
+      "prevRank": 4,
+      "peak": 3,
+      "weeks": 8,
+      "title": "Burning Flames II",
+      "artistId": "mosidon",
+      "artistName": "Mosidon feat. A.$H",
+      "label": "Addicted Music",
+      "genre": "Afro-Trap",
+      "release": "2026-03-20",
+      "isrc": "NGA1A26485200",
+      "score": 101.12,
+      "streams": 20100000,
+      "artwork": "/assets/trap-in-phc.jpg",
+      "image": "/assets/trap-in-phc.jpg",
+      "producers": ["Sarz"],
+      "writers": ["Mosidon"],
+      "breakdown": [
+        { "platform": "Streaming", "value": 68, "color": "var(--color-primary)" },
+        { "platform": "Airplay", "value": 20, "color": "oklch(0.78 0.16 75)" },
+        { "platform": "Sales", "value": 12, "color": "oklch(0.72 0.17 155)" }
+      ],
+      "history": [{ "week": "W26", "rank": 4, "score": 98.4 }, { "week": "W27", "rank": 3, "score": 101.12 }],
+      "daily": [{ "day": "Mon", "streams": 2900000 }, { "day": "Tue", "streams": 2850000 }, { "day": "Wed", "streams": 2890000 }, { "day": "Thu", "streams": 2810000 }, { "day": "Fri", "streams": 3000000 }, { "day": "Sat", "streams": 2850000 }, { "day": "Sun", "streams": 2800000 }]
+    },
+    {
+      "id": "real-song-2",
+      "rank": 4,
+      "prevRank": 3,
+      "peak": 2,
+      "weeks": 6,
+      "title": "Janice STFU",
+      "artistId": "drake",
+      "artistName": "Drake",
+      "label": "OVO / Republic",
+      "genre": "Hip-Hop",
+      "release": "2026-05-24",
+      "isrc": "USUM72611942",
+      "score": 99.88,
+      "streams": 19500000,
+      "artwork": "/assets/janice-stfu.jpg",
+      "image": "",
+      "producers": ["Boi-1da"],
+      "writers": ["Aubrey Graham"],
+      "breakdown": [
+        { "platform": "Streaming", "value": 68, "color": "var(--color-primary)" },
+        { "platform": "Airplay", "value": 15, "color": "oklch(0.78 0.16 75)" },
+        { "platform": "Sales", "value": 17, "color": "oklch(0.72 0.17 155)" }
+      ],
+      "history": [{ "week": "W26", "rank": 3, "score": 99.9 }, { "week": "W27", "rank": 4, "score": 99.88 }],
+      "daily": [{ "day": "Mon", "streams": 2800000 }, { "day": "Tue", "streams": 2750000 }, { "day": "Wed", "streams": 2790000 }, { "day": "Thu", "streams": 2710000 }, { "day": "Fri", "streams": 2900000 }, { "day": "Sat", "streams": 2750000 }, { "day": "Sun", "streams": 2800000 }]
+    },
+    {
+      "id": "real-song-3",
+      "rank": 5,
+      "prevRank": 5,
+      "peak": 4,
+      "weeks": 9,
+      "title": "Chanel",
+      "artistId": "asake",
+      "artistName": "Blaqbonez feat. Asake",
+      "label": "Chocolate City / YBNL",
+      "genre": "Street-Pop",
+      "release": "2026-05-28",
+      "isrc": "NGA1A2600412",
+      "score": 98.15,
+      "streams": 18200000,
+      "artwork": "/assets/chanel-artwork.jpg",
+      "image": "",
+      "producers": ["Magicsticks"],
+      "writers": ["Emeka Akumefule", "Asake"],
+      "breakdown": [
+        { "platform": "Streaming", "value": 64, "color": "var(--color-primary)" },
+        { "platform": "Airplay", "value": 20, "color": "oklch(0.78 0.16 75)" },
+        { "platform": "Sales", "value": 16, "color": "oklch(0.72 0.17 155)" }
+      ],
+      "history": [{ "week": "W26", "rank": 5, "score": 96.2 }, { "week": "W27", "rank": 5, "score": 98.15 }],
+      "daily": [{ "day": "Mon", "streams": 2600000 }, { "day": "Tue", "streams": 2550000 }, { "day": "Wed", "streams": 2590000 }, { "day": "Thu", "streams": 2510000 }, { "day": "Fri", "streams": 2700000 }, { "day": "Sat", "streams": 2600000 }, { "day": "Sun", "streams": 2650000 }]
+    },
+    { "id": "real-song-4", "rank": 6, "prevRank": 6, "peak": 2, "weeks": 14, "title": "I Know Who I Be", "artistId": "davido", "artistName": "Davido", "label": "DMW / Sony", "genre": "Afrobeats", "release": "2026-04-02", "isrc": "NGA1A2677103", "score": 97.42, "streams": 17900000, "artwork": "/assets/ikwib-artwork.jpg", "image": "", "producers": ["Shizzi"], "writers": ["Davido"], "breakdown": [], "history": [], "daily": [] },
+    { "id": "song-mosidon-3", "rank": 7, "prevRank": 9, "peak": 7, "weeks": 5, "title": "White Nike", "artistId": "mosidon", "artistName": "Mosidon feat. Lil Jagz", "label": "Addicted Music", "genre": "Afro-Trap", "release": "2026-03-20", "isrc": "NGA1A26485201", "score": 96.11, "streams": 17100000, "artwork": "/assets/trap-in-phc.jpg", "image": "/assets/trap-in-phc.jpg", "producers": ["Sarz"], "writers": ["Mosidon"], "breakdown": [], "history": [], "daily": [] },
+    { "id": "real-song-6", "rank": 8, "prevRank": 8, "peak": 6, "weeks": 4, "title": "Heis", "artistId": "rema", "artistName": "Rema", "label": "Mavin Records", "genre": "Afro-Rave", "release": "2026-06-10", "isrc": "NGA1A2600106", "score": 95.32, "streams": 16400000, "artwork": "/assets/heis.jpg", "image": "", "producers": ["London"], "writers": ["Divine Ikubor"], "breakdown": [], "history": [], "daily": [] },
+    { "id": "real-song-7", "rank": 9, "prevRank": 7, "peak": 3, "weeks": 19, "title": "Benin Boys", "artistId": "rema", "artistName": "Rema feat. Shallipopi", "label": "Mavin / Plutomania", "genre": "Afro-Pop", "release": "2026-02-18", "isrc": "NGA1A2600107", "score": 94.88, "streams": 16100000, "artwork": "/assets/benin-boys.jpg", "image": "", "producers": ["Producer X"], "writers": ["Divine Ikubor", "Crown Uzama"], "breakdown": [], "history": [], "daily": [] },
+    { "id": "real-song-8", "rank": 10, "prevRank": 10, "peak": 1, "weeks": 26, "title": "Higher", "artistId": "burna-boy", "artistName": "Burna Boy", "label": "Spaceship / Atlantic", "genre": "Afro-fusion", "release": "2026-01-05", "isrc": "NGA1A2600108", "score": 93.12, "streams": 15800000, "artwork": "/assets/higher.jpg", "image": "", "producers": ["P.Priime"], "writers": ["Damini Ogulu"], "breakdown": [], "history": [], "daily": [] },
+    { "id": "real-song-9", "rank": 11, "prevRank": 11, "peak": 9, "weeks": 3, "title": "Shabang", "artistId": "drake", "artistName": "Drake", "label": "OVO / Republic", "genre": "Rap", "release": "2026-06-20", "isrc": "USUM72611943", "score": 92.45, "streams": 15500000, "artwork": "/assets/shabang.jpg", "image": "", "producers": ["Conductor Williams"], "writers": ["Aubrey Graham"], "breakdown": [], "history": [], "daily": [] },
+    { "id": "real-song-10", "rank": 12, "prevRank": 12, "peak": 5, "weeks": 15, "title": "Wave", "artistId": "asake", "artistName": "Asake feat. Central Cee", "label": "YBNL / Empire", "genre": "Amapiano", "release": "2026-03-14", "isrc": "NGA1A2600110", "score": 91.89, "streams": 15200000, "artwork": "/assets/wave.jpg", "image": "", "producers": ["Magicsticks"], "writers": ["Asake", "Oakley Caesar-Su"], "breakdown": [], "history": [], "daily": [] },
+    { "id": "real-song-11", "rank": 13, "prevRank": 13, "peak": 2, "weeks": 22, "title": "Komasava", "artistId": "diamond-platnumz", "artistName": "Diamond Platnumz", "label": "WCB Wasafi", "genre": "Bongo Fleva", "release": "2026-02-01", "isrc": "TZA1A2600111", "score": 90.45, "streams": 14900000, "artwork": "/assets/komasava.jpg", "image": "", "producers": ["S2Kizzy"], "writers": ["Nasibu Abdul Juma"], "breakdown": [], "history": [], "daily": [] },
+    { "id": "real-song-12", "rank": 14, "prevRank": 14, "peak": 12, "weeks": 5, "title": "Active", "artistId": "asake", "artistName": "Asake feat. Travis Scott", "label": "YBNL / Empire", "genre": "Street-Pop", "release": "2026-06-02", "isrc": "NGA1A2600112", "score": 89.65, "streams": 14500000, "artwork": "/assets/active.jpg", "image": "", "producers": ["SarzAux"], "writers": ["Asake", "Jacques Webster"], "breakdown": [], "history": [], "daily": [] },
+    { "id": "real-song-13", "rank": 15, "prevRank": 15, "peak": 8, "weeks": 11, "title": "MMS", "artistId": "asake", "artistName": "Asake & Wizkid", "label": "YBNL / Starboy", "genre": "Afrobeats", "release": "2026-04-18", "isrc": "NGA1A2600113", "score": 88.92, "streams": 14100000, "artwork": "/assets/mms.jpg", "image": "", "producers": ["P.Priime"], "writers": ["Asake", "Wizkid"], "breakdown": [], "history": [], "daily": [] },
+    { "id": "real-song-14", "rank": 16, "prevRank": 16, "peak": 4, "weeks": 17, "title": "Gwagwalada", "artistId": "bnxn", "artistName": "BNXN feat. Kizz Daniel & Seyi Vibez", "label": "T.Y.E / Empire", "genre": "Afropop", "release": "2026-03-01", "isrc": "NGA1A2600114", "score": 87.41, "streams": 13800000, "artwork": "/assets/gwagwalada.jpg", "image": "", "producers": ["Sarz"], "writers": ["Daniel Benson", "Oluwatobiloba Anidugbe", "Oluwaloseyi Balogun"], "breakdown": [], "history": [], "daily": [] },
+    { "id": "real-song-15", "rank": 17, "prevRank": 17, "peak": 15, "weeks": 6, "title": "Tony Montana", "artistId": "skepta", "artistName": "Skepta feat. Portable", "label": "Big Smoke Corp", "genre": "Afro-Drill", "release": "2026-05-20", "isrc": "GBUM72600115", "score": 86.55, "streams": 13400000, "artwork": "/assets/tony-montana.jpg", "image": "", "producers": ["Jae5"], "writers": ["Joseph Adenuga", "Habeeb Okikiola"], "breakdown": [], "history": [], "daily": [] },
+    { "id": "real-song-16", "rank": 18, "prevRank": 18, "peak": 1, "weeks": 30, "title": "Tshwala Bam", "artistId": "tito-m", "artistName": "TitoM & Yuppe feat. S.N.E", "label": "Independent", "genre": "Amapiano", "release": "2025-11-12", "isrc": "ZAA1A2500999", "score": 85.12, "streams": 13100000, "artwork": "/assets/tshwala-bam.jpg", "image": "", "producers": ["TitoM"], "writers": ["Thyamu Tito"], "breakdown": [], "history": [], "daily": [] },
+    { "id": "real-song-17", "rank": 19, "prevRank": 19, "peak": 17, "weeks": 4, "title": "Born In The Wild", "artistId": "tems", "artistName": "Tems", "label": "Leading Vibe / RCA", "genre": "R&B", "release": "2026-06-05", "isrc": "USUM72611456", "score": 84.35, "streams": 12800000, "artwork": "/assets/born-in-the-wild.jpg", "image": "", "producers": ["Tems"], "writers": ["Temilade Openiyi"], "breakdown": [], "history": [], "daily": [] },
+    { "id": "real-song-18", "rank": 20, "prevRank": 20, "peak": 10, "weeks": 14, "title": "Love Me JeJe", "artistId": "tems", "artistName": "Tems", "label": "Leading Vibe / RCA", "genre": "Afropop", "release": "2026-04-01", "isrc": "USUM72611455", "score": 83.19, "streams": 12500000, "artwork": "/assets/love-me-jeje.jpg", "image": "", "producers": ["GuiltyBeatz"], "writers": ["Temilade Openiyi"], "breakdown": [], "history": [], "daily": [] },
+    { "id": "real-song-19", "rank": 21, "prevRank": 21, "peak": 12, "weeks": 13, "title": "Attentional", "artistId": "omah-lay", "artistName": "Omah Lay", "label": "KeyQaad / Sire", "genre": "Afro-Depression", "release": "2026-04-10", "isrc": "NGA1A2600119", "score": 82.01, "streams": 12200000, "artwork": "/assets/attentional.jpg", "image": "", "producers": ["Tempoe"], "writers": ["Stanley Didia"], "breakdown": [], "history": [], "daily": [] },
+    { "id": "real-song-20", "rank": 22, "prevRank": 22, "peak": 20, "weeks": 3, "title": "Stubborn", "artistId": "victony", "artistName": "Victony feat. Asake", "label": "KVLT", "genre": "Afropop", "release": "2026-06-15", "isrc": "NGA1A2600120", "score": 81.45, "streams": 11900000, "artwork": "/assets/stubborn.jpg", "image": "", "producers": ["P.Priime"], "writers": ["Anthony Victor", "Asake"], "breakdown": [], "history": [], "daily": [] },
+    { "id": "real-song-21", "rank": 23, "prevRank": 23, "peak": 15, "weeks": 8, "title": "Apocalypse", "artistId": "odumodublvck", "artistName": "Odumodublvck", "label": "Native Records", "genre": "Afro-Grime", "release": "2026-05-10", "isrc": "NGA1A2600121", "score": 80.22, "streams": 11600000, "artwork": "/assets/apocalypse.jpg", "image": "", "producers": ["Trill X"], "writers": ["Tochukwu Ojogwu"], "breakdown": [], "history": [], "daily": [] },
+    { "id": "real-song-22", "rank": 24, "prevRank": 24, "peak": 18, "weeks": 9, "title": "Diamonds", "artistId": "ruger", "artistName": "Ruger", "label": "Blown Boy Ent", "genre": "Dancehall", "release": "2026-05-02", "isrc": "NGA1A2600122", "score": 79.11, "streams": 11300000, "artwork": "/assets/diamonds.jpg", "image": "", "producers": ["Kukuruku"], "writers": ["Michael Adebayo"], "breakdown": [], "history": [], "daily": [] },
+    { "id": "real-song-23", "rank": 25, "prevRank": 25, "peak": 23, "weeks": 2, "title": "High Tennessee", "artistId": "ayra-starr", "artistName": "Ayra Starr", "label": "Mavin Records", "genre": "Afropop", "release": "2026-06-22", "isrc": "NGA1A2600123", "score": 78.45, "streams": 11000000, "artwork": "/assets/high-tennessee.jpg", "image": "", "producers": ["London"], "writers": ["Oyinkansola Aderibigbe"], "breakdown": [], "history": [], "daily": [] }
+  ],
+  "ALBUMS": [
+    {
+      "id": "album-mosidon",
+      "title": "TRAP IN PHC",
+      "artistId": "mosidon",
+      "artistName": "Mosidon",
+      "release": "2026-03-20",
+      "label": "Addicted Music",
+      "genre": "Afro-Trap",
+      "streams": 215000000,
+      "peak": 1,
+      "weeks": 14,
+      "rank": 1,
+      "prevRank": 1,
+      "certification": "Platinum",
+      "artwork": "/assets/trap-in-phc.jpg",
+      "tracklist": [
+        { "n": 1, "title": "SACi Riddim (feat. TION & Who iz Responsible)", "duration": "3:05", "streams": 24850000 },
+        { "n": 2, "title": "Burning Flames II (feat. A.$H)", "duration": "2:58", "streams": 19200000 },
+        { "n": 3, "title": "White Nike (feat. Lil Jagz)", "duration": "3:12", "streams": 18800000 },
+        { "n": 4, "title": "This Year (feat. Lil Jagz)", "duration": "3:20", "streams": 17400000 },
+        { "n": 5, "title": "Motion (feat. Lil Jagz)", "duration": "2:45", "streams": 16900000 }
+      ]
+    }
+  ]
+}
